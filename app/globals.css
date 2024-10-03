@@ -1,27 +1,87 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color : #f9f1f1
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.header{
+  text-align : center;
+  display : block;
+  background-color : lightgray;
+  padding : 10px;
+  border-radius: 8px;
+  margin-bottom : 10px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3); 
 }
+
+.container{
+  display : flex;
+}
+
+.landingpage-items{
+  text-align : center;
+  display : block;
+  background-color : lightblue;
+  padding : 10px;
+  border-radius : 8px;
+  margin-bottom : 10px;
+  width : 500px;
+  height : 500px;
+  margin-right : 3%;
+  margin-left : 3%;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.justify-text{
+  text-align : justify;
+}
+
+.recipe-column{
+  text-align : justify;
+  display : block;
+  background-color : lightblue;
+  padding : 10px;
+  border-radius : 8px;
+  margin-bottom : 10px;
+  width : 800px;
+  margin-right : 3%;
+  margin-left : 3%;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+}
+.image-container{
+  display : flex;
+  flex-direction : column;
+  justify-content : space-between;
+  align-items : center;
+  background-color : lightblue;
+  padding : 10px;
+  border-radius : 8px;
+  margin-bottom : 10px;
+  width : 800px;
+  margin-right : 3%;
+  margin-left : 3%;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.landing-page-footer{
+  text-align : center;
+  display : block;
+  background-color : lightblue;
+  padding : 10px;
+  border-radius: 8px;
+  margin-bottom : 10px;
+  margin-top : 7%;  
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3); 
+}
+
+.error-image{
+  align-items :center;
+  background-color :lightblue;
+  padding :10px;
+  border-radius :8px;
+  width :1024px;
+  margin  :auto;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+
+
